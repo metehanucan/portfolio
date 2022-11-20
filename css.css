@@ -1,0 +1,13 @@
+.box{
+    transition: transform 0.7s, opacity 0.7s;
+   }
+   
+   .box.bottom{
+       transform: translateY(150px);
+       opacity: 0;
+   }
+   .box.active{
+       transform: translateX(0);
+       opacity: 1;
+   }
+   

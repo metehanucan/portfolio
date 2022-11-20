@@ -1,0 +1,201 @@
+:root {
+    --main-bg-color: #FF891B;
+}
+
+.back{
+    margin-top: 12px;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+p, li{
+    font-size: large;
+    line-height: 1.8em;
+}
+
+body{
+    font-family: 'Space Grotesk';
+    color: #444444;
+}
+
+.header{
+    margin:20px 0px;
+    margin-top: 10px;
+    background-color:var(--main-bg-color) ;
+
+    max-height:90vh;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;    
+
+    border-radius: 1.6em;
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#PRC-header{
+    max-width: 90%;
+}
+
+h1{
+    font-size: 4.5rem;
+    color: white;
+}
+
+
+.desc{
+background:white;
+/* box-shadow: 47px 35px 70px -10px rgba(100, 100, 100, 0.1); */
+border-radius: 1rem;
+padding: 1.5rem;
+border-style: solid;
+border-width: 1px;
+border-color: #EBEBEB;
+}
+
+.col-md-5{
+    display: flex;
+    justify-content:center;
+}
+
+.col-md-7{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-md-6{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    margin:10px 0px;
+    background-color: #f6f7ff;
+    
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;    
+
+    border-radius: 1.6em;
+}
+
+figure, blockquote p{
+    font-size: xx-large;
+}
+
+
+.dark{
+    background-color: var(--main-bg-color);
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.opaque{
+    opacity:70%;
+}
+
+.divider{
+    margin: 9rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divider p{
+    margin: 0px;
+}
+
+h2{
+    font-size:3rem;
+}
+
+.desc-row {
+    display: flex; /* equal height of the children */
+    margin: 20px 0px;
+  }
+  
+.desc{
+    flex: 1; /* additionally, equal width */
+}
+
+.over{
+    margin-right: 20px;
+}
+
+h5{
+    font-weight:bold;
+    font-size:x-large;
+    margin-bottom: 1em;
+}
+
+.metrics{
+    padding: 10em 5em;
+
+}
+
+.metrics p{
+    line-height: 0.7em;
+}
+
+.metrics h4{
+    margin-bottom: 0.4em;
+    font-size: 3em;
+}
+
+@media (max-width: 800px){
+    p, li{
+        font-size: small;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .desc-row{
+        display: block;
+    }
+    .over{
+        margin-bottom: 30px;
+    }
+    #PRC-header{
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 1200px){
+    h1{
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 2em;
+    }
+}
+
+
+.full-no-pic{
+    padding: 10% 20% ;
+}
+
+.full-pic{
+    padding-top: 5%;
+}
+
+.full-pic h5{
+    margin-bottom: 0.4em;
+}
